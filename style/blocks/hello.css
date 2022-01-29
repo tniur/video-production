@@ -1,0 +1,21 @@
+.hello {
+    margin-bottom: 233px;
+    text-align: center;
+}
+
+.hello__container {
+    width: 776px;
+}
+
+.hello__title {
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 99px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.hello__text {
+    font-size: 18px;    
+    margin-bottom: 42px;
+}

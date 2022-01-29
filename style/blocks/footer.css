@@ -1,0 +1,103 @@
+.footer {
+    height: 146px;
+}
+
+.footer__container {
+    position: relative;
+}
+
+.footer__container:before {
+    content: "";
+    display: block;
+    width: 1142px;
+    height: 1px;
+    left: 389px;
+    top: 2780px;
+    background: #FFF;
+    opacity: 0.1;
+}
+
+.logo--footer {
+    top: 42px;
+}
+
+.menu--footer {
+    top: 57px;
+    left: 328px;
+}
+
+.socials {
+    position: absolute;
+    top: 51px;
+    left: 702px;
+}
+
+.socials__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}
+
+.socials__link {
+    background:  center center no-repeat;
+}
+
+.socials__item--telegram .socials__link,
+.socials__item--vk .socials__link,
+.socials__item--facebook .socials__link,
+.socials__item--instagram .socials__link,
+.socials__item--telegram .socials__link:hover,
+.socials__item--vk .socials__link:hover,
+.socials__item--facebook .socials__link:hover,
+.socials__item--instagram .socials__link:hover {
+    display: block;
+    width: 36px;
+    height: 36px;
+}
+
+.socials__item--telegram .socials__link {
+    background-image: url("../../img/footer/telegram.svg");
+}
+
+.socials__item--vk .socials__link {
+    background-image: url("../../img/footer/vk.svg");
+}
+
+.socials__item--facebook .socials__link {
+    background-image: url("../../img/footer/facebook.svg");
+}
+
+.socials__item--instagram .socials__link {
+    background-image: url("../../img/footer/instagram.svg");
+}
+
+.socials__item--telegram .socials__link:hover {
+    background-image: url("../../img/footer/telegram-hover.svg");
+}
+
+.socials__item--vk .socials__link:hover {
+    background-image: url("../../img/footer/vk-hover.svg");
+}
+
+.socials__item--facebook .socials__link:hover {
+    background-image: url("../../img/footer/facebook-hover.svg");
+}
+
+.socials__item--instagram .socials__link:hover {
+    background-image: url("../../img/footer/instagram-hover.svg");
+}
+
+.contacts--footer {
+    text-align: right;
+    top: 43px;
+}
+
+.contacts-subtitle {
+    color: #9A9A9A;
+    font-size: 11px;
+    line-height: 20px;
+}
