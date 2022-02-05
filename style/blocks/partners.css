@@ -1,0 +1,31 @@
+.inner-section {
+	padding-top: 88px;
+	padding-bottom: 115px;
+}
+
+.inner-section--bg-grey {
+	background-color: #f4f5f5;
+}
+
+.inner-section__title {
+	color: #1a1b1e;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 65px;
+	margin-bottom: 82px;
+}
+
+.partners {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.partners__rows {
+	margin-bottom: 60px;
+}
+
+.partners__rows:last-child {
+	margin-bottom: 0;
+}

@@ -1,71 +1,85 @@
 .offers {
-    margin-bottom: 180px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin-bottom: 180px;
+}
+
+.offers__list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer {
+	min-height: 476px;
+	background-color: #fff;
+	color: #000;
+	padding: 35px 17px;
+	border: 5px solid #fff;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+}
+
+.offer:hover {
+	border-color: #ccc;
 }
 
 .offers__item {
-    display: inline-block;
-    vertical-align: top;
-    width: 362px;
-    min-height: 476px;
-    background-color: #fff;
-    color: #000;
-    margin-right: 23px;
-    padding: 35px 17px;
-    border: 5px solid #fff;
-    border-radius: 5px;
+	width: calc(100% / 3 - 18px);
 }
 
-.offers__item:hover{
-    border-color: #CCC;
+.offer__img {
+	margin-left: 7px;
+	margin-bottom: 30px;
 }
 
-.offers__item:last-child {
-    margin-right: 0;
+.offer__img--big {
+	margin-top: -4px;
 }
 
-.offers__img {
-    margin-left: 7px;
-    margin-bottom: 25px;
+.offer__content {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
 }
 
-.offers__img--big {
-    margin-top: -4px;
+.offer__titile {
+	color: #000;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 44px;
+	margin-bottom: 17px;
 }
 
-.offers__titile {
-    color: #000;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 44px;
-    margin-bottom: 17px;
+.offer__features {
+	display: flex;
+	justify-content: space-between;
+	color: #666;
+	line-height: 20px;
+	margin-bottom: 26px;
 }
 
-.offers__features {
-    color: #666;
-    line-height: 20px;
-    margin-bottom: 26px;
+.offer__feature {
+	max-width: 35%;
 }
 
-.offers__feature {
-    display: inline-block;
-    max-width: 102px;
-    margin-right: 77px;
+.offer__feature:last-child {
+	max-width: 40%;
 }
 
-.offers__feature:last-child {
-    margin-right: 0;
-    max-width: 123px;
+.offer__text {
+	font-size: 14px;
+	line-height: 22px;
+	color: #666;
+	width: 95%;
 }
 
-.offers__text {
-    font-size: 14px;
-    line-height: 22px;
-    color: #666;
-    width: 306px;
-    margin-bottom: 27px;
+.offer__feature-text-bold {
+	color: #000;
+	font-weight: bold;
 }
 
-.offers__feature-text-bold {
-    color: #000;
-    font-weight: bold;
+.offer__button {
+	margin-top: auto;
 }

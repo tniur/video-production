@@ -1,0 +1,59 @@
+.top-line {
+	min-height: 416px;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 27.5px;
+	background: #17191c url(../../img/services/top-line.jpg) right 50% top no-repeat;
+}
+
+.top-line__container {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.top-line__header {
+	padding-top: 20px;
+}
+
+.page-title {
+	font-weight: 800;
+	font-size: 72px;
+	line-height: 98px;
+	text-transform: uppercase;
+}
+
+.breadcrumbs__list {
+	display: flex;
+	align-items: center;
+}
+
+.breadcrumbs__item {
+	display: flex;
+	align-items: center;
+}
+
+.breadcrumbs__item:after {
+	content: '/';
+	font-size: 14px;
+	line-height: 19px;
+	color: #9a9a9a;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.breadcrumbs__item:last-child:after {
+	display: none;
+}
+
+.breadcrumbs__link {
+	font-size: 14px;
+	line-height: 19px;
+	color: #9a9a9a;
+	text-decoration-line: underline;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+	font-weight: bold;
+}

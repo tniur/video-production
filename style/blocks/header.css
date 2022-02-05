@@ -1,65 +1,50 @@
 .header {
-    height: 70px;
-    margin-bottom: 164px;
+	padding-top: 26px;
+	margin-bottom: 30px;
 }
 
 .header__container {
-    position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.logo, .menu, .contacts {
-    display: inline-block;
-    position: absolute;
-}
-
-.logo {
-    top: 26px;
-    left: 0;
-}
-
-.menu {
-    top: 43px;
-    left: 439px;
-}
-
-.contacts {
-    top: 33px;
-    right: 0;
+.menu__list {
+	display: flex;
 }
 
 .menu__item {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 50px;
+	margin-right: 54px;
 }
 
 .menu__item:last-child {
-    margin-right: 0;
+	margin-right: 0;
 }
 
 .menu__link {
-    font-size: 14px;
+	font-size: 14px;
 }
 
-.menu__link:hover {
-    color: #FF3D00;
+.menu__link:hover,
+.menu__item--active .menu__link {
+	color: #ff3d00;
 }
 
-.menu__item--active .menu__link{
-    color: #FF3D00;
+.contacts {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
 }
 
 .contacts__phone {
-    font-size: 26px;
-    line-height: 35px;
+	font-size: 26px;
+	line-height: 35px;
 }
 
 .contacts__schedule {
-    color: #FF3D00;
-    position: absolute;
-    right: 2px;
-    top: 27px;
-    font-size: 13px;
-    line-height: 20px;
-    text-decoration: underline;
+	color: #ff3d00;
+	font-size: 13px;
+	line-height: 20px;
+	text-decoration: underline;
+	cursor: pointer;
 }
