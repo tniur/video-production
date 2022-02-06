@@ -7,18 +7,20 @@
 }
 
 .top-line__container {
-	flex: 1;
 	display: flex;
+	flex: 1;
 	flex-direction: column;
 	justify-content: space-between;
 }
 
 .top-line__header {
 	padding-top: 20px;
-	flex: 1;
 }
 
 .page-title {
+	display: flex;
+	flex: 1;
+	align-items: center;
 	font-weight: 800;
 	font-size: 72px;
 	line-height: 98px;
