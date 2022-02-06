@@ -15,6 +15,7 @@
 
 .top-line__header {
 	padding-top: 20px;
+	flex: 1;
 }
 
 .page-title {
