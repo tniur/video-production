@@ -1,21 +1,21 @@
 .hello {
-	min-height: 581px;
+	min-height: 586px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	text-align: center;
-	margin-bottom: 110px;
+	margin-bottom: 107px;
 }
 
 .hello__container {
 	width: 80%;
 }
 
-.hello .main-title {
-	margin-bottom: 20px;
+.hello__title {
+	margin-bottom: 17px;
 }
 
 .hello__text {
 	font-size: 18px;
-	margin-bottom: 42px;
+	margin-bottom: 44px;
 }

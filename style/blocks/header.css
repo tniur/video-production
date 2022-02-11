@@ -5,46 +5,19 @@
 
 .header__container {
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
 }
 
-.menu__list {
+.header__left {
 	display: flex;
+	align-items: center;
+	flex: 1;
 }
 
-.menu__item {
-	margin-right: 54px;
+.header__logo {
+	margin-right: 241.5px;
 }
 
-.menu__item:last-child {
-	margin-right: 0;
-}
-
-.menu__link {
-	font-size: 14px;
-}
-
-.menu__link:hover,
-.menu__item--active .menu__link {
-	color: #ff3d00;
-}
-
-.contacts {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
-}
-
-.contacts__phone {
-	font-size: 26px;
-	line-height: 35px;
-}
-
-.contacts__schedule {
-	color: #ff3d00;
-	font-size: 13px;
-	line-height: 20px;
-	text-decoration: underline;
-	cursor: pointer;
+.header--services {
+	padding-top: 18px;
 }

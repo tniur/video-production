@@ -1,9 +1,9 @@
 .top-line {
-	min-height: 416px;
+	min-height: 415px;
 	display: flex;
 	flex-direction: column;
 	padding-bottom: 27.5px;
-	background: #17191c url(../../img/services/top-line.jpg) right 50% top no-repeat;
+	background: #17191c url(../../img/services/top-line.jpg) right 50% top -1px no-repeat;
 }
 
 .top-line__container {
@@ -15,48 +15,4 @@
 
 .top-line__header {
 	padding-top: 20px;
-}
-
-.page-title {
-	display: flex;
-	flex: 1;
-	align-items: center;
-	font-weight: 800;
-	font-size: 72px;
-	line-height: 98px;
-	text-transform: uppercase;
-}
-
-.breadcrumbs__list {
-	display: flex;
-	align-items: center;
-}
-
-.breadcrumbs__item {
-	display: flex;
-	align-items: center;
-}
-
-.breadcrumbs__item:after {
-	content: '/';
-	font-size: 14px;
-	line-height: 19px;
-	color: #9a9a9a;
-	margin-left: 4px;
-	margin-right: 4px;
-}
-
-.breadcrumbs__item:last-child:after {
-	display: none;
-}
-
-.breadcrumbs__link {
-	font-size: 14px;
-	line-height: 19px;
-	color: #9a9a9a;
-	text-decoration-line: underline;
-}
-
-.breadcrumbs__item--active .breadcrumbs__link {
-	font-weight: bold;
 }

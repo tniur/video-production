@@ -1,0 +1,20 @@
+.advertisement {
+	display: flex;
+	align-items: center;
+	background: url('../../img/feedbacks/party.png') #373737 no-repeat 630px;
+	min-height: 363px;
+}
+
+.advertisement__content {
+	max-width: 50%;
+}
+
+.advertisement__title {
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 65px;
+}
+
+.advertisement__text-separator {
+	color: #ff5300;
+}

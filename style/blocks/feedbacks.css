@@ -1,0 +1,15 @@
+.feedbacks-content {
+	padding-top: 94px;
+	padding-bottom: 86px;
+}
+
+.feedbacks {
+	column-count: 2;
+	column-gap: 27px;
+	margin-bottom: 59px;
+}
+
+.feedbacks__item {
+	display: inline-flex;
+	margin-bottom: 17px;
+}

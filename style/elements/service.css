@@ -1,0 +1,28 @@
+.service {
+	display: flex;
+	align-items: center;
+}
+
+.service__img {
+	margin-right: 5%;
+}
+
+.service__content {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.service__title {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 49px;
+	color: #000000;
+	margin-bottom: 30px;
+}
+
+.service__info p {
+	line-height: 27px;
+	margin-bottom: 40px;
+	color: #303030;
+}
